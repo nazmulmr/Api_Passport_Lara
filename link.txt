@@ -1,1 +1,5 @@
+raw
+https://www.simplifiedcoding.net/android-login-and-registration-tutorial/#Download-PHP-Scripts
+
+laravel
 https://tutsforweb.com/laravel-passport-create-rest-api-with-authentication/?fbclid=IwAR05Hi8LkFUTkCHQIt9SrVzCZIDZKF49YHJX5IuqTHFrS-lhyaikN3mHqNc
