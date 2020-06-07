@@ -73,13 +73,13 @@
 					
 					if($stmt->num_rows > 0){
 						
-						$stmt->bind_result($brcode, $email);
+						$stmt->bind_result($brcode, $password);
 						$stmt->fetch();
 						
 						$user = array(
 							'brcode'=>$brcode,
 							//'username'=>$username,
-							'email'=>$email,
+							'email'=>$password,
 							//'gender'=>$gender
 						);
 						
@@ -108,7 +108,9 @@
 	function isTheseParametersAvailable($params){
 		
 		foreach($params as $param){
+            echo "nnn";
 			if(!isset($_POST[$param])){
+			    echo "\naa";
 				return false; 
 			}
 		}
